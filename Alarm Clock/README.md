@@ -4,20 +4,16 @@
 
 ## 데모 영상
 [YouTube 링크](https://www.youtube.com/watch?v=yEzKKdXt8EY)
-
 </br>
-
 ## 사용한 언어 및 하드웨어
-#### '언어'
+#### 언어
 - Python
 
-#### '하드웨어'
+#### 하드웨어
 - Raspberry Pi
 - Piface CAD
 - IR Remote Controller
-
 </br>
-
 ## 기능
 
 1. 현재 시간 표시
