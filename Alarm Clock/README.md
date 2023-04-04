@@ -7,7 +7,6 @@
 ## 사용한 언어 및 하드웨어
 #### 언어
 - Python
-
 #### 하드웨어
 - Raspberry Pi
 - Piface CAD
