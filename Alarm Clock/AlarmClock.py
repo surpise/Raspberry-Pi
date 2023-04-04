@@ -41,7 +41,8 @@ for k in range(1, 6):
     irlistener.register(str(k), button_clicked)
 irlistener.activate()
 
-def clock():
+# 알람 시계 구현
+def clock():	
 	now = datetime.now()
 	cad.lcd.set_cursor(0,0)
 	cad.lcd.write(now.strftime("%m/%d %a"))
@@ -60,6 +61,7 @@ def clock():
 
 	sleep(0.8)
 
+# 알람 설정
 def alarmSet():
     global scanner, time, selectMode
     selectMode = True
@@ -71,6 +73,7 @@ def alarmSet():
     cad.lcd.cursor_off()
     cad.lcd.write('Alarm Set')
 
+# 알람 확인
 def alarmCheck():
     global switch, but
     cad.lcd.clear()
@@ -84,12 +87,14 @@ def alarmCheck():
     switch = 0
     but = 0
 
+# 종료
 def shutDown():
     cad.lcd.clear()
     cad.lcd.backlight_off()
     swlistener.deactivate()
     irlistener.deactivate()
 
+# 날씨 확인 구현
 def weatherMode():
     global selectMode, switch
     selectMode = True
@@ -115,6 +120,7 @@ def lcd_backlight():
         backlight = True
     but = 0
 
+# 스톱 워치 구현
 def stopwatch():
     global stopwatchMode, start, but
     if not stopwatchMode:
