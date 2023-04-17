@@ -1,4 +1,4 @@
-# Raspberry Pi와 CAD로 날씨를 표시해주는 알람 시계 만들기
+# Raspberry Pi와 Goggle STT를 이용하여 GPIO 제어하기
 ## 데모 영상
 [YouTube 링크](https://www.youtube.com/shorts/aHck9JpzS38)
 
