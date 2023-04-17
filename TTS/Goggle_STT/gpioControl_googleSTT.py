@@ -49,7 +49,7 @@ def transcribe_file(speech_file):
     if str[0] == "LED":
         if str[1] == "온":
             for i in range(3):led[i].on()
-        else:
+        elif str[1] == "오프":
             for i in range(3):led[i].off()
 
 # [END speech_transcribe_sync]
