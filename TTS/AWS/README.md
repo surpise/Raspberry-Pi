@@ -1,7 +1,7 @@
-# Raspberry Pi와 AWS를 이용하여 GPIO 제어하기
+# Raspberry Pi와 AWS, Alexa를 이용하여 GPIO 제어하기
 ## 데모 영상
-[YouTube 링크](https://youtu.be/tRlP52CJYk8)
-
+[AWS YouTube 링크](https://youtu.be/tRlP52CJYk8)
+[Alexa YouTube 링크](https://youtu.be/44wgt0qv9-E)
 </br>
 
 ## 사용한 언어 및 하드웨어
