@@ -2,6 +2,8 @@
 ## 데모 영상
 [YouTube 링크](https://youtu.be/_iBxrH4cCrY)
 
+[IDEA BOOM 링크](http://www.ideaboom.net/project/project/view?seq=1158&comp_seq=76)
+
 </br>
 
 ## 사용한 언어 및 하드웨어
